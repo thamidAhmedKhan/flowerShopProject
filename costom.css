@@ -1,0 +1,413 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('Flower Asset/fonts/Lato/Lato-Regular.ttf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('Flower Asset/fonts/Lato/Lato-Bold.ttf');
+    font-weight: bold;
+}
+*{
+    margin: 0px;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    height: 100vh;
+    margin: 0;
+}
+.t_color{
+    color: rgba(39, 39, 39, 0.6);
+}
+/* 
+````````````````````````````````````````````````````````````````````````````````````````````
+            .section_intro
+````````````````````````````````````````````````````````````````````````````````````````````
+*/
+.section_intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 100%;
+    background-color: rgba(229, 84, 115, 0.1);
+
+}
+.intro_discription{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    width: 430px;
+    height: 280px;
+    margin-right: 100px;
+    
+}
+.intro_head_line{
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 10px 0px 10px 0px;
+    margin-bottom:20px;
+}
+.intro_main_discription{
+    font-size: normal;
+    margin-bottom:20px;
+}
+.intro_shop_btn input{
+    background-color: #E55473;
+    color: white;
+    border: 0px;
+    padding: 10px 18px;
+    border-radius: 5px;
+}
+.intro_flower{
+    align-self: flex-end;
+    display: flex;
+    align-items: bottom;
+    justify-content: center;
+    height: 600px;
+    max-width: 450px;
+}
+
+.intro_flower img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 
+````````````````````````````````````````````````````````````````````````````````````````````
+            .section_feature
+````````````````````````````````````````````````````````````````````````````````````````````
+*/
+.section_feature{
+    text-align: center;  
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: 80px;
+    margin-top: 150px;
+}
+.section_feature p{
+    margin-bottom: 15px;
+}
+.feature_headline{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.feature_discription{
+    font-size: small;
+    font-weight: normal;
+}
+/* 
+````````````````````````````````````````````````````````````````````````````````````````````
+            .section_flower_tree
+````````````````````````````````````````````````````````````````````````````````````````````
+*/
+.section_flower_tree{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+.section_flower_tree img{
+    width: auto;
+    height: 80%;
+    align-self: flex-end;
+}
+.section_flower_tree p{
+    text-align: center;
+    margin-top: 20px;
+}
+.section_flower_tree a{
+    text-align: center;
+    color: black;
+}
+.section_flower_tree_2{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.section_flower_tree_3{
+    display: flex;
+    align-items: bottom;
+    justify-content: center;
+    height: 310px;
+    width:  280px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.pink_folwer_tree {
+    background-color: rgba(167, 33, 98, 0.15);
+    /* display: flex;
+    align-items: bottom;
+    justify-content: center;
+    height: 310px;
+    width: 275px;
+    margin-right: 20px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%; */
+}
+.red_folwer_tree{
+    background-color: rgba(5, 151, 160, 0.15);
+    /* display: flex;
+    align-items: bottom;
+    justify-content: center;
+    height: 310px;
+    width: 275px;
+    margin-right: 20px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%; */
+    }
+.red_folwer_tree img{
+    margin: 20px;
+}
+.yellow_folwer_tree{
+    background-color: rgba(71, 125, 17, 0.15);
+    /* display: flex;
+    align-items: bottom;
+    justify-content: center;
+    height: 310px;
+    width:  275px;
+    margin-right: 20px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%; */
+}
+.yellow_folwer_tree img{ 
+    height:90%;
+    width: auto;
+}
+ 
+/* 
+````````````````````````````````````````````````````````````````````````````````````````````
+            .section_services
+````````````````````````````````````````````````````````````````````````````````````````````
+*/
+.section_services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.section_services_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:150px;
+    width: 895px;
+    background-color: rgba(39, 39, 39, 0.05);
+}
+.section_services_2 p{
+    color: rgba(39, 39, 39, 0.8);
+}
+.section_services_3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.section_services_4{
+    margin: 20px;
+}
+
+/* 
+````````````````````````````````````````````````````````````````````````````````````````````
+            .section_offers
+````````````````````````````````````````````````````````````````````````````````````````````
+*/
+.section_offers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    background-color: rgba(229, 84, 115, 0.1);
+    margin-top: 100px;
+}
+.offers_discription{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 470px;
+    height: 180px;
+    margin-right: 100px;
+    
+}
+.offers_head_line{
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+.offers_head_line span{
+    color: #E55473;
+}
+.offers_main_discription{
+    font-size: normal;
+    margin-bottom:20px;
+    text-align: center;
+}
+.offers_shop_btn input{
+    background-color: #E55473;
+    color: white;
+    border: 0px;
+    padding: 10px 18px;
+    border-radius: 5px;
+}
+.offers_flower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    max-width: 450px;
+}
+
+.offers_flower img {
+    max-width: 90%;
+    height: auto;
+}
+
+/* 
+````````````````````````````````````````````````````````````````````````````````````````````
+            .section_Socia_Media
+````````````````````````````````````````````````````````````````````````````````````````````
+*/
+.section_SM{
+    text-align: center;  
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: 80px;
+    margin-top: 100px;
+}
+.section_SM p{
+    margin-bottom: 15px;
+}
+.SM_headline{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.SM_headline a{
+    color: black;
+    text-decoration: none;
+}
+.SM_discription{
+    text-align: center;
+    font-size: small;
+    font-weight: normal;
+}
+
+/* 
+````````````````````````````````````````````````````````````````````````````````````````````
+            .section_Asthetic_flowers
+````````````````````````````````````````````````````````````````````````````````````````````
+*/
+.As_F{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+.As_F_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:auto ;
+    width: 895px;
+}
+.As_F_1 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.As_F_1 img{
+    width: 100%;
+    height: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* 
+````````````````````````````````````````````````````````````````````````````````````````````
+            .section_subscription
+````````````````````````````````````````````````````````````````````````````````````````````
+*/
+.section_subscription{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section_subscription_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("Flower Asset/Rectangle 9.png");
+    background-size: cover;
+    height: 280px;
+    width: 895px;
+}
+.section_subscription_2 p{
+        text-align: center;
+}
+.subscription_headline{
+    font-weight:900;
+    font-size: 25px;
+}
+.suvscription_description{
+    font-size: small;
+    margin: 10px;
+}
+.subscription_email{
+    width: 350px;
+    padding:10px 3px;
+    border-radius: 5px;
+    border: 0px;
+    margin-right:5px ;
+}
+.subscription_btn{
+    background-color: #E55473;
+    color: white;
+    border: 0px;
+    padding: 9px 9px;
+    border-radius: 5px;
+}
+
+/* 
+````````````````````````````````````````````````````````````````````````````````````````````
+            .section_footer
+````````````````````````````````````````````````````````````````````````````````````````````
+*/
+.footer{
+    background-color: #111010;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 0px;
+    margin-top: 100px;
+}
+.footer_logo{
+    font-size: 30px;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+.footer_logo span{
+    color: #E55473;
+}
+.footer_discription{
+    color: rgba(255, 255, 255, 0.9);
+    width: 550px;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.footer_copyright{
+    color: rgba(255, 255, 255, 0.4);
+}
